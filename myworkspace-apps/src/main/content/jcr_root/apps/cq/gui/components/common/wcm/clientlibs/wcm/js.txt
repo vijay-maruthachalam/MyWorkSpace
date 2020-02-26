@@ -1,0 +1,15 @@
+#base=js
+
+autoselect-card.js
+copy.js
+createfolder.js
+delete.js
+lockunlock.js
+open.js
+pagethumbnail.js
+quickpublish.js
+publish.js
+unpublish.js
+excelexport.js
+move.js
+clone.js

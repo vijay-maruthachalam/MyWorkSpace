@@ -2,4 +2,6 @@
 <workspaceFilter version="1.0">
     <filter root="/apps/myworkspace"/>
     <filter root="/apps/sling" />
+	<filter root="/apps/cq/gui/components" mode="update"/>
+	<filter root="/apps/wcm/core/content" mode="update"/>
 </workspaceFilter>
