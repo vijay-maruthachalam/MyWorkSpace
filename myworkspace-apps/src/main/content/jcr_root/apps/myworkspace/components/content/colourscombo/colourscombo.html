@@ -1,0 +1,36 @@
+<!-- /* This is colour component rendering script */ -->
+
+<sly data-sly-test.author="${wcmmode.edit || wcmmode.design}">
+   <i>Edit Colour Combo component</i>
+</sly>
+
+
+<div style="background-color:gray" data-sly-test="${properties.colorcombo}">
+    <div data-sly-test="${properties.colorcombo == 'whiteandblue'}">
+        <span style="background-color:white" ${properties.white}>
+            ${properties.white}
+        </span>
+        <span style="background-color:blue" ${properties.blue}>
+            ${properties.blue}
+        </span>
+    </div>
+    
+    <div data-sly-test="${properties.colorcombo == 'whiteandgreen'}">
+        <span style="background-color:white" ${properties.white}>
+            ${properties.white}
+        </span>
+        <span style="background-color:green" ${properties.green}>
+            ${properties.green}
+        </span>
+    </div>
+    
+    <div data-sly-test="${properties.colorcombo == 'yellowandgreen'}">
+        <span style="background-color:yellow" ${properties.yellow}>
+            ${properties.yellow}
+        </span>
+        <span style="background-color:green" ${properties.green}>
+            ${properties.green}
+        </span>
+    </div>
+
+</div>
